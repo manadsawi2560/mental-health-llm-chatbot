@@ -1,0 +1,21 @@
+# Core web & config
+flask==3.0.2
+python-dotenv==1.0.1
+waitress==3.0.0
+
+# LangChain stack (พินให้เข้ากัน)
+langchain==0.1.16
+langchain-community==0.0.33
+langchain-openai==0.0.8
+
+# Vector store & embeddings
+chromadb==0.4.24
+sentence-transformers==2.6.1
+pypdf==4.2.0
+
+# Optional local LLM via Ollama
+ollama==0.5.3
+
+# Utilities
+requests==2.32.3
+typing-extensions>=4.11.0
